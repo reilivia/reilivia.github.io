@@ -4,6 +4,6 @@
 
 layout: home
 title: "Creative Coding"
-permalink: /Home/
+permalink: /creativecoding/
 
 ---
