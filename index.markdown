@@ -4,6 +4,6 @@
 
 layout: home
 title: "Creative Coding"
-permalink: /https://reilivia.github.io/
+permalink: /Home/
 
 ---
