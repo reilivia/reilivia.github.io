@@ -15,6 +15,16 @@ To understand the code, i copied it and set up several questions for myself.
 # Why use Begin Shape?
 The code uses beginShape() to create a shape using vertex. Two of the vertex will be a noise line, while the other two are used to fill half of the canvas.
 
+{% highlight ruby %}
+//The wave is on the top part of the canvas
+  vertex(width, 0);
+  vertex(0, 0);
+  
+//The wave is on the bottom part of the canvas
+  vertex(width, height);
+  vertex(0, height);
+{% endhighlight %}
+
 # What is Map and why use it in this code?
 Coming into this research, I have no knowledge about map. Therefore I did some research about what map is by watching a YouTube video called [The map() Function - p5.js Tutorial][map-1] by The Coding Train and the [p5js map reference][map-2].
 
