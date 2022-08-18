@@ -50,6 +50,9 @@ In the original [Noise Wave][noise-wave] examples, there is this comments about 
 {% highlight ruby %}
  // Increment x dimension for noise
     xoff += 0.05;
+{% endhighlight %}
+
+{% highlight ruby %}
  // Increment y dimension for noise
     yoff += 0.01;
 {% endhighlight %}
