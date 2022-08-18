@@ -13,7 +13,9 @@ To start with, I was scolling down the examples in the p5js website and found th
 The code uses beginShape() to create a shape using vertex. Two of the vertex will be a noise line, while the other two are used to fill half of the canvas.
 
 # What is Map and why use it in this code?
-Coming into this research, I have no knowledge about map. Therefore I did some research about what map is by watching a [YouTube video The Coding Train][map-reference-1] and 
+Coming into this research, I have no knowledge about map. Therefore I did some research about what map is by watching a [YouTube video The Coding Train][map-1].
+
+[map-1]: https://www.youtube.com/watch?v=nicMAoW6u1g&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=14 
 
 # What is offset value?
 
@@ -23,4 +25,3 @@ Coming into this research, I have no knowledge about map. Therefore I did some r
 
 # Why does the y offset is outside the function, while the x offset is inside?
 
-[map-reference-1] : https://www.youtube.com/watch?v=nicMAoW6u1g&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=14 
