@@ -17,7 +17,9 @@ The code uses beginShape() to create a shape using vertex. Two of the vertex wil
 //The wave is on the top part of the canvas
   vertex(width, 0);
   vertex(0, 0);
-  
+{% endhighlight %}
+
+{% highlight ruby %}
 //The wave is on the bottom part of the canvas
   vertex(width, height);
   vertex(0, height);
@@ -64,14 +66,12 @@ According to the [2D Noise - Perlin Noise and p5.js Tutorial][noise-2] by Coding
 
 # Why does the y offset is outside the function, while the x offset is inside?
 
-When I watched the [2D Noise - Perlin Noise and p5.js Tutorial][noise-2] by Coding Train, I noticed that in the beginning, there is only an x offset because it was a 1D Perlin Noise. Later on in the video, a y offset was added to create a 2D Perlin Noise. 
+When I watched the [2D Noise - Perlin Noise and p5.js Tutorial][noise-2] by Coding Train, I noticed that [in the beginning][noise-1d], there is only an x offset because it was a 1D Perlin Noise. [Later on in the video][noise-2d], a y offset was added to create a 2D Perlin Noise. 
 
+Now, if you look closely in the original [Noise Wave][noise-wave] examples, the y offset is outside the shape , while the x offset inside. 
 Here's what i got from my underestanding:
 * The x offset is inside to reset the x offset of the shape back to zero. 
 * The y offset is outside the loop so that the y offset increase by one on each line
-
-Now, if you look closely in the original [Noise Wave][noise-wave] examples, the y offset is outside the shape , while the x offset inside. 
-
 
 [noise-wave]: https://p5js.org/examples/math-noise-wave.html 
 
@@ -80,3 +80,6 @@ Now, if you look closely in the original [Noise Wave][noise-wave] examples, the 
 
 [noise-1]: https://p5js.org/reference/#/p5/noise 
 [noise-2]: https://youtu.be/ikwNrFvnL3g 
+
+[noise-1d]:https://youtu.be/ikwNrFvnL3g?t=505  
+[noise-2d]:https://youtu.be/ikwNrFvnL3g?t=532   
