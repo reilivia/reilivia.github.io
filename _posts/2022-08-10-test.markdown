@@ -7,4 +7,4 @@ categories: creative coding
 
 <iframe src="https://editor.p5js.org/reilivia/full/Ullt443Y1"></iframe>
 
-# 
+To start with, I was scolling down the examples in the p5js website and found the noise wave examples. 
