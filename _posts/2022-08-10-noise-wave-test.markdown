@@ -45,7 +45,12 @@ When encountered with an unfamliar code such as noise, the first thing i notice 
 [noise-1]: https://p5js.org/reference/#/p5/noise 
 [noise-2]: https://youtu.be/ikwNrFvnL3g 
 
-From that video, I learnt that an offset is a value that the noise function takes to create a particular value relating to a particular axis. So if i use xoff and yoff, it will give me a particular noise value at a particular x location and y location in the canvas.
+{% highlight ruby %}
+let yoff = 0;
+let xoff = 0;
+{% endhighlight %}
+
+From that video, I learnt that an offset is a value that the noise function takes to create a particular value relating to a particular axis. So if i use xoff and yoff, it will give me a particular noise value at a particular x location and y location in the canvas. In addition to that, the offset value has to be 0-1 in order to make a 2D Perlin Noise.
 
 # What is Increment?
 
