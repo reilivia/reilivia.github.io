@@ -21,6 +21,10 @@ Coming into this research, I have no knowledge about map. Therefore I did some r
 [map-1]: https://youtu.be/nicMAoW6u1g 
 [map-2]: https://p5js.org/reference/#/p5/map 
 
+{% highlight ruby %}
+    let y = map(noise(xoff, yoff), 0, 1, height/2, height/2 + 50);
+{% endhighlight %}
+
 From there, I learnt that the map function in the code is meant to map the noise with 0-1 value on the canvas. I tried to change the value of the canvas several times and ended up with setting it into half of the canvas.
 
 # What is offset value?
