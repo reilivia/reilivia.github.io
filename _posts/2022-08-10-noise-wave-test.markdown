@@ -23,7 +23,7 @@ The code uses beginShape() to create a shape using vertex. Two of the vertex wil
 //The wave is on the bottom part of the canvas
   vertex(width, height);
   vertex(0, height);
-{% endhighlight %}
+{% endhighlight %} 
 
 I tried to cahnge the value of the vertex to see how it affect shape of the noise wave. As you can see from the code above, I manage to make the wave upside down by changing the value of the two vertex.
 
