@@ -45,7 +45,7 @@ let xoff = 0;
 From that video, I learnt that an offset is a value that the noise function takes to create a particular value relating to a particular axis. So if i use xoff and yoff, it will give me a particular noise value at a particular x location and y location in the canvas. In addition to that, the offset value has to be 0-1 in order to make a 2D Perlin Noise.
 
 # What is Increment?
-In the original [Noise Wave][noise-wave] examples, there is this comments abot increments.
+In the original [Noise Wave][noise-wave] examples, there is this comments about increments.
 
 {% highlight ruby %}
  // Increment x dimension for noise
@@ -54,12 +54,16 @@ In the original [Noise Wave][noise-wave] examples, there is this comments abot i
     yoff += 0.01;
 {% endhighlight %}
 
-According to 
-
-
-
+According to the [2D Noise - Perlin Noise and p5.js Tutorial][noise-2] by Coding Train, increment is the value of how much the x or y offset will change.
 
 # Why does the y offset is outside the function, while the x offset is inside?
+
+If you look closely in the original [Noise Wave][noise-wave] examples, the y offset is outside the shape , while the x offset inside. 
+
+When I watched the [2D Noise - Perlin Noise and p5.js Tutorial][noise-2] by Coding Train, I noticed that in the beginning, there is only an x offset because it was a 1D Perlin Noise. Later on in the video, a y offset was added to create a 2D Perlin Noise. 
+Here's what i got from my underestanding:
+* The x offset is inside to reset the x offset of the shape back to zero. 
+* The y offset is outside the loop so that the y offset increase by one on each line
 
 
 [noise-wave]: https://p5js.org/examples/math-noise-wave.html 
