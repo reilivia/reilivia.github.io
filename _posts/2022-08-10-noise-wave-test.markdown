@@ -19,7 +19,7 @@ The code uses beginShape() to create a shape using vertex. Two of the vertex wil
   vertex(0, 0);
 {% endhighlight %}
 
-{% endhighlight %}
+{% highlight %}
 //The wave is on the bottom part of the canvas
   vertex(width, height);
   vertex(0, height);
