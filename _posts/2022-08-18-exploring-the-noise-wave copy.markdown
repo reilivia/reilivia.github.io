@@ -5,8 +5,9 @@ date:   2022-08-18 21:44:00 +1000
 categories: creative coding
 ---
 
-To start with, I was scolling down the examples in the p5js website and found the [Noise Wave][noise-wave] examples. I found this example interesting because it creates a wave like effect using noise. When i heard the word noise i imagine the black and white noise on the TV, this is whhy i wa interesting how can a noise create a wave like effect.
-To understand the code, i copied it and set up several questions for myself.
+To start with, I was scolling down the examples in the p5js website and found the [Noise Wave][noise-wave] examples. I found this example interesting because it creates a wave like effect using noise. When I heard the word noise I imagine the black and white noise on the TV, this is why I was interesting to see how can a noise create a wave like effect. If possible, I want to use it as a background for my first sssignment.
+
+To understand the code, I copied it and set up several questions for myself.
 
 <iframe src="https://editor.p5js.org/reilivia/full/Ullt443Y1"></iframe>
 
