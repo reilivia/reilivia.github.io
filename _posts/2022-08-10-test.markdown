@@ -13,7 +13,7 @@ To start with, I was scolling down the examples in the p5js website and found th
 The code uses beginShape() to create a shape using vertex. Two of the vertex will be a noise line, while the other two are used to fill half of the canvas.
 
 # What is Map and why use it in this code?
-Coming into this research, I have no knowledge about map. Therefore I did some research about what map is by watching a [YouTube video The Coding Train][map-1] and the [p5js map reference][map-2].
+Coming into this research, I have no knowledge about map. Therefore I did some research about what map is by watching a YouTube video called [The map() Function - p5.js Tutorial][map-1] by The Coding Train and the [p5js map reference][map-2].
 
 [map-1]: https://www.youtube.com/watch?v=nicMAoW6u1g&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=14 
 [map-2]: https://p5js.org/reference/#/p5/map 
@@ -21,7 +21,10 @@ Coming into this research, I have no knowledge about map. Therefore I did some r
 From there, I learnt that the map function in the code is meant to map the noise with 0-1 value on the canvas. I tried to change the value of the canvas several times and ended up with setting it into half of the canvas.
 
 # What is offset value?
+When encountered with an unfamliar code such as noise, the first thing i notice is the y offset on top of the sketch. To know what is an offset value, I tried to see [p5js noise reference][noise-1]. Unfortunately, there isn't any detailed explanation about offset in that page. So, i tried watching a YouTube video called [2D Noise - Perlin Noise and p5.js Tutorial][map-1] by The Coding Train.
 
+[noise-1]: https://p5js.org/reference/#/p5/noise 
+[noise-2]: ttps://p5js.org/reference/#/p5/map 
 
 # What is Increment?
 
