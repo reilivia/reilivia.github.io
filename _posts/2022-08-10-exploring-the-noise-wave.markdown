@@ -11,7 +11,7 @@ To understand the code, i copied it and set up several questions for myself.
 <iframe src="https://editor.p5js.org/reilivia/full/Ullt443Y1"></iframe>
 
 # Why use Begin Shape?
-The code uses beginShape() to create a shape using vertex. Two of the vertex will be a noise line, while the other two are used to fill half of the canvas.
+The code uses [beginShape()][begin-shape] to create a shape using vertex. Two of the vertex will be a noise line, while the other two are used to fill half of the canvas.
 
 {% highlight ruby %}
 //The wave is on the top part of the canvas
@@ -75,6 +75,8 @@ Here's what i got from my underestanding:
 * The y offset is outside the loop so that the y offset increase by one on each line
 
 [noise-wave]: https://p5js.org/examples/math-noise-wave.html 
+
+[begin-shape]:https://p5js.org/reference/#/p5/beginShape
 
 [map-1]: https://youtu.be/nicMAoW6u1g 
 [map-2]: https://p5js.org/reference/#/p5/map 
