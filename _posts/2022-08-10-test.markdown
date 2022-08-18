@@ -5,6 +5,12 @@ date:   2022-08-18
 categories: creative coding
 ---
 
+To start with, I was scolling down the examples in the p5js website and found the noise wave examples. I copied the code and try to figure out what is happening in that code.
+
 <iframe src="https://editor.p5js.org/reilivia/full/Ullt443Y1"></iframe>
 
-To start with, I was scolling down the examples in the p5js website and found the noise wave examples. 
+# Why use Begin Shape?
+# Why use Map?
+# What is offset value?
+# What is Increment?
+# Why does the y offset is outside the function, while the x offset is inside?
