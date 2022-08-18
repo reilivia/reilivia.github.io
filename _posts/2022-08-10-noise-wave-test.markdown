@@ -50,7 +50,7 @@ In the original [Noise Wave][noise-wave] examples, there is this comments about 
 {% highlight ruby %}
  // Increment x dimension for noise
     xoff += 0.05;
-  // increment y dimension for noise
+ // Increment y dimension for noise
     yoff += 0.01;
 {% endhighlight %}
 
@@ -58,12 +58,13 @@ According to the [2D Noise - Perlin Noise and p5.js Tutorial][noise-2] by Coding
 
 # Why does the y offset is outside the function, while the x offset is inside?
 
-If you look closely in the original [Noise Wave][noise-wave] examples, the y offset is outside the shape , while the x offset inside. 
-
 When I watched the [2D Noise - Perlin Noise and p5.js Tutorial][noise-2] by Coding Train, I noticed that in the beginning, there is only an x offset because it was a 1D Perlin Noise. Later on in the video, a y offset was added to create a 2D Perlin Noise. 
+
 Here's what i got from my underestanding:
 * The x offset is inside to reset the x offset of the shape back to zero. 
 * The y offset is outside the loop so that the y offset increase by one on each line
+
+Now, if you look closely in the original [Noise Wave][noise-wave] examples, the y offset is outside the shape , while the x offset inside. 
 
 
 [noise-wave]: https://p5js.org/examples/math-noise-wave.html 
