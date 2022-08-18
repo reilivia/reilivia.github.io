@@ -9,7 +9,9 @@ To start with, I was scolling down the examples in the p5js website and found th
 
 To understand the code, I copied it and set up several questions for myself.
 
-<iframe src="https://editor.p5js.org/reilivia/full/Ullt443Y1"></iframe>
+<div></div>
+
+<iframe width="400" height="442" src="https://editor.p5js.org/reilivia/full/Ullt443Y1"></iframe>
 
 # Why use Begin Shape?
 The code uses [beginShape()][begin-shape] to create a shape using vertex. Two of the vertex will be a noise line, while the other two are used to fill half of the canvas.
