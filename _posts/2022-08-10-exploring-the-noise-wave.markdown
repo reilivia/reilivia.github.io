@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Wave Noise Test"
+title:  "Exploring The Noise Wave"
 date:   2022-08-18
 categories: creative coding
 ---
