@@ -19,13 +19,15 @@ The code uses beginShape() to create a shape using vertex. Two of the vertex wil
   vertex(0, 0);
 {% endhighlight %}
 
+
+
+I tried to cahnge the value of the vertex to see how it affect shape of the noise wave. As you can see from the code above, I manage to make the wave upside down by changing the value of the two vertex.
+
 {% highlight ruby %}
 //The wave is on the bottom part of the canvas
   vertex(width, height);
   vertex(0, height);
 {% endhighlight %} 
-
-I tried to cahnge the value of the vertex to see how it affect shape of the noise wave. As you can see from the code above, I manage to make the wave upside down by changing the value of the two vertex.
 
 # What is Map and why use it in this code?
 Coming into this research, I have no knowledge about map. Therefore I did some research about what map is by watching a YouTube video called [The map() Function - p5.js Tutorial][map-1] by The Coding Train and the [p5js map reference][map-2].
