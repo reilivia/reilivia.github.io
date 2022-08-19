@@ -74,8 +74,8 @@ When I watched the [2D Noise - Perlin Noise and p5.js Tutorial][noise-2] by Codi
 Now, if you look closely in the original [Noise Wave][noise-wave] examples, the y offset is outside the shape , while the x offset inside. 
 
 Here's what i got from my underestanding:
-* The x offset is inside to reset the x offset of the shape back to zero. 
-* The y offset is outside the loop so that the y offset increase by one on each line
+* The x offset is inside to reset the x offset of the shape back to zero (it will reset after the function). 
+* The y offset is outside the loop so that the y offset increase by one on each line (keeping track so that it won't reset after the function).
 
 [noise-wave]: https://p5js.org/examples/math-noise-wave.html 
 
