@@ -31,6 +31,11 @@ Overall, the tutorials by [happycoding][happycoding] is not that different from 
 
 ## Creating My Bubble Class
 
+<div align ="center">
+  <iframe width="576" height="366" src="https://editor.p5js.org/reilivia/full/NY2HswgCu"></iframe>
+</div>
+<br>
+
 In attempting to create my own bubble class, I started with creating the class for bubble. To make the bubble float upward with random size, I will need a `ySpeed` and `size` in addition to `x` and `y` position.
 
 {% highlight ruby %}

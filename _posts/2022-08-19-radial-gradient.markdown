@@ -1,6 +1,0 @@
----
-layout: post
-title:  "Testing Radial Gradient"
-date:   2022-08-19 11:54:00 +1000
-categories: creative coding
----
