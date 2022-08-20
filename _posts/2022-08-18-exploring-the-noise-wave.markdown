@@ -5,7 +5,7 @@ date:   2022-08-18 21:44:00 +1000
 categories: creative coding
 ---
 
-To start with, I was scolling down the examples in the p5js website and found the [Noise Wave][noise-wave] examples. I found this example interesting because it creates a wave like effect using noise. When I heard the word noise I imagine the black and white noise on the TV, this is why I was interesting to see how can a noise create a wave like effect. If possible, I want to use it as a background for my first sssignment.
+To start with, I was scrolling down the examples in the p5js website and found the [Noise Wave][noise-wave] examples. I found this example interesting because it creates a wave like effect using noise. When I heard the word noise I imagine the black and white noise on the TV, this is why I was interesting to see how can a noise create a wave like effect. If possible, I want to use it as a background for my first sssignment.
 
 To understand the code, I copied it and set up several questions for myself.
 
@@ -79,8 +79,60 @@ Here's what i got from my underestanding:
 * The x offset control the fluidity of the wave. 
 * The y offset control the speed of the wave.
 
-# Noise Wave in Assignment 1
-After doing my research, I plan to add this noise wave into my assignment 1 as a background. For practical reason, I will change the name of xoff variable into fluidity and the yoff variable into speed. Check out my own version of the Noise Wave for my [Assignment 1 in here][assignment1].
+<br>
+<br>
+
+## Noise Wave in Assignment 1
+After doing my research, I plan to add this noise wave into my assignment 1 as a background. 
+
+Here is my version of the noise wave:
+
+<div align ="center">
+  <iframe width="576" height="366" src="https://editor.p5js.org/reilivia/full/WMf3A7mvE"></iframe>
+</div>
+
+* First of all, I change the variable name for fractical reason. From `xoff` into `fluidity`, and from `yoff` into `speed`.
+
+* Since the Assignment 1 require me to use a certain size of canvas, I have to change the size of the canvas. However, there are some problem with the noise wave after i hange the canvas size. The width of the noise wave is not long enough to fill the width of the canvas. Therefore, i added `+ 10` to the x inside the loop.
+
+{% highlight ruby %}
+for (let x = 0; x <= width + 10; x += 10) {
+    let y = map(noise(fluidity, speed), 0, 1, height/6, height/6 + 200)
+    vertex(x, y)
+    fluidity += 0.025
+  }
+{% endhighlight %}
+
+* I set the fluidity valueand speed value to be low so that it will produce a smooth water-like effect.
+
+{% highlight ruby %}
+  // control the fluidity of the wave (jagged or smooth)
+    fluidity += 0.025
+{% endhighlight %}
+
+{% highlight ruby %}
+  // change the speed of the wave
+    speed += 0.01
+{% endhighlight %}
+
+* Change the colour of the background and the wave into blue.
+{% highlight ruby %}
+  background('#00223d')
+  fill ('#004281')
+{% endhighlight %}
+
+
+* Add another vertex between the vetexes on the corner. The added vertex will be at the middle-bottom of the canvas so that it will create a V line between the wave. The reason why I did this is because I plan to use the wave noise as a background and there will be texts in the middle of the canvas.
+
+{% highlight ruby %}
+  vertex(width, 0)
+  vertex(width / 2, height)
+  vertex(0, 0)
+{% endhighlight %}
+
+
+
+Check out how I embed my version of the noise wave into my [Assignment 1][assignment1].
 
 
 [noise-wave]: https://p5js.org/examples/math-noise-wave.html 
