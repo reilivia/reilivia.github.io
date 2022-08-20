@@ -76,6 +76,12 @@ Now, if you look closely in the original [Noise Wave][noise-wave] examples, the 
 Here's what i got from my underestanding:
 * The x offset is inside to reset the x offset of the shape back to zero (it will reset after the function). 
 * The y offset is outside the loop so that the y offset increase by one on each line (keeping track so that it won't reset after the function).
+* The x offset control the fluidity of the wave. 
+* The y offset control the speed of the wave.
+
+# Noise Wave in Assignment 1
+After doing my research, I plan to add this noise wave into my assignment 1 as a background. For practical reason, I will change the name of xoff variable into fluidity and the yoff variable into speed. Check out my own version of the Noise Wave for my [Assignment 1 in here][assignment1].
+
 
 [noise-wave]: https://p5js.org/examples/math-noise-wave.html 
 
@@ -89,3 +95,5 @@ Here's what i got from my underestanding:
 
 [noise-1d]:https://youtu.be/ikwNrFvnL3g?t=505  
 [noise-2d]:https://youtu.be/ikwNrFvnL3g?t=532   
+
+[assignment1]:https://reilivia.github.io/creative/coding/2022/08/20/assignment-1-documentation.html 
