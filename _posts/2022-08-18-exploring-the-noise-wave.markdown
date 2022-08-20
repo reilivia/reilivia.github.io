@@ -132,7 +132,8 @@ for (let x = 0; x <= width + 10; x += 10) {
   vertex(0, 0)
 {% endhighlight %}
 
-
+<br>
+<br>
 
 Check out how I embed my version of the noise wave into my [Assignment 1][assignment1].
 
