@@ -12,6 +12,7 @@ To understand the code, I copied it and set up several questions for myself.
 <div align ="center">
   <iframe width="400" height="442" src="https://editor.p5js.org/reilivia/full/Ullt443Y1"></iframe>
 </div>
+<br>
 
 # Why use Begin Shape?
 The code uses [beginShape()][begin-shape] to create a shape using vertex. Two of the vertex will be a noise line, while the other two are used to fill half of the canvas.
@@ -90,6 +91,7 @@ Here is my version of the noise wave:
 <div align ="center">
   <iframe width="576" height="366" src="https://editor.p5js.org/reilivia/full/WMf3A7mvE"></iframe>
 </div>
+<br>
 
 * First of all, I change the variable name for fractical reason. From `xoff` into `fluidity`, and from `yoff` into `speed`.
 
