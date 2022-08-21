@@ -33,27 +33,16 @@ Iside from that, I created a variable for colours. This will make it easier for 
 {% highlight ruby %}
   var backgroundColour = "#000054"
   var waveColour = "waveColour"
-  var rectangleColour = "rectangleColour"
   var bubbleColour = "bubbleColour"
 {% endhighlight %}
-
-
-
-{% highlight ruby %}
-{% endhighlight %}
-
-
-
-
-
-
 
 ## Iteration of Initial Ideas
 
 After learning more about each topic, I was able to tweak my original code and create a design with a sci-fi theme. Compare to the first design, here are some things that I changed:
-* The fonts of the text
-* The bubble (changed the shape, the size, the speed, the movement direction)
-* The noise wave (increase the fluidity and speed and added 2 more vertex)
+* The `fonts` of the text
+* The `Bubble` (changed the shape, the size, the speed, the movement direction)
+* The `noiseWave` (increase the fluidity and speed and added 2 more vertex)
+* The `changeColour()` (changed the colours into a brighter and vivid colours)
 
 <div align ="center">
   <iframe width="576" height="366" src="https://editor.p5js.org/reilivia/full/hpL8-SsKA"></iframe>
