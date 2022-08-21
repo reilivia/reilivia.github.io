@@ -57,6 +57,7 @@ function textContent() {
 * The `changeColour()` function uses an `if` function and need 4 coordinates to define the mouse over area. Therfore, I used a `console.log` to help me know the area behind the text. In the example below, the function will create a gray rectangle on a black background. And if you hover over the rectangle, the background will change into hotpink and the rectangle will change into brown.
 {% highlight ruby %}
 function changeColour() {
+  function changeColour() {
   if ((mouseX > 180) && (mouseX < 395) &&
   (mouseY > 70) && (mouseY < 140)) {
   background('hotpink')
@@ -73,6 +74,7 @@ function changeColour() {
 * Considering that I have another set of words below the `RMIT` word, I added another rectangle and an `else if` function.
 
 {% highlight ruby %}
+function changeColour() {
  if ((mouseX > 180) && (mouseX < 395) &&
   (mouseY > 70) && (mouseY < 140)) {
   background('hotpink')
@@ -86,6 +88,9 @@ function changeColour() {
   else {
   background('black')
   fill('gray')
+  }
+  rect(180, 70, 215, 70, 20)
+  rect(180, 150, 215, 75, 20)
   }
 {% endhighlight %}
 
