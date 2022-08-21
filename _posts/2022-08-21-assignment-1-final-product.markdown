@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Assignment 1 Documentation"
-date:   2022-08-20
+date:   2022-08-21
 categories: creative coding
 ---
 
