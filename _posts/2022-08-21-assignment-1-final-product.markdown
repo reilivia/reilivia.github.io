@@ -41,7 +41,7 @@ Iside from that, I created a variable for colours. This will make it easier for 
 After learning more about each topic, I was able to tweak my original code and create a design with a sci-fi theme. Compare to the first design, here are some things that I changed:
 * The `fonts` of the text
 * The `Bubble` (changed the shape, the size, the speed, the movement direction)
-* The `noiseWave` (increase the fluidity and speed and added 2 more vertex)
+* The `noiseWave()` (increase the fluidity and speed and added 2 more vertex)
 * The `changeColour()` (changed the colours into a brighter and vivid colours)
 
 <div align ="center">
