@@ -1,0 +1,6 @@
+---
+layout: post
+title:  "Blog2"
+date:   2022-08-21
+categories: creative coding
+---
