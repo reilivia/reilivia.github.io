@@ -46,8 +46,7 @@ My idea on how to incorporate the interaction, recursion and audio is inspired b
 
 [assignment2-fullscreen]: https://editor.p5js.org/reilivia/full/e7vwtiFS2
 
-[mouse-interaction]: https://reilivia.github.io/creative/coding/2022/08/21/exploring-the-mouse-interaction-array.html
-[recursive-rectangle]: https://reilivia.github.io/creative/coding/2022/08/21/exploring-the-recursion-function.html
-[audio-button]: https://reilivia.github.io/creative/coding/2022/08/21/creating-the-audio-button.html
-
+[mouse-interaction]: https://reilivia.github.io/creative/coding/2022/09/19/exploring-the-mouse-interaction-array.html
+[recursive-rectangle]: https://reilivia.github.io/creative/coding/2022/09/20/exploring-the-recursion-function.html
+[audio-button]: https://reilivia.github.io/creative/coding/2022/09/22/creating-the-audio-button.html
 [qianqianye]: https://qianqian-ye.com/Everyday/Day28/ 
