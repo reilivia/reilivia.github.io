@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Exploring The Mouse Interaction Array"
-date:   2022-08-21
+date:   2022-09-19
 categories: creative coding
 ---
 
