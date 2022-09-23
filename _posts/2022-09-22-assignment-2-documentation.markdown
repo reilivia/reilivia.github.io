@@ -6,7 +6,7 @@ categories: creative coding
 ---
 
 ## Plan for Assignment 2
-For assignment 2, I have to stick with p5.js. At first I want to use Canvas API in javascript and move on from p5.js. However, I spent too much time figuring how to use canvas API to create recursion. In the end, I am back to p5.js for this assignment.
+For assignment 2, I have to stick with p5.js. At first I want to use Canvas API in javascript and move on from p5.js. However, I spent too much time figuring how to use canvas API to create recursion. In the end, I am back to p5.js for this assignment. 
 
 ## Documentation
 
@@ -42,6 +42,8 @@ In the middle of the canvas, there is a dark grey button. You can see the recurs
 
 Other than mirror, this button works as a button to play/stop music. The music I choose is called "Muriel" by Bobby Richards. In addition to that, if you click on anypart of the screan, it will play a bell sound to accompany the ripple effect. This way you can jam on the music and interact with it. 
 
+# Credit
+My idea on how to incorporate the interaction, recursion and audio is inspired by a work called "[Love Will Tear Us Apart][qianqianye]" by Qianqian Ye.
 
 [assignment2-fullscreen]: https://editor.p5js.org/reilivia/full/e7vwtiFS2
 
@@ -49,3 +51,4 @@ Other than mirror, this button works as a button to play/stop music. The music I
 [recursive-rectangle]: https://reilivia.github.io/creative/coding/2022/08/21/exploring-the-recursion-function.html
 [audio-button]: https://reilivia.github.io/creative/coding/2022/08/21/creating-the-audio-button.html
 
+[qianqianye]: https://qianqian-ye.com/Everyday/Day28/ 
