@@ -108,7 +108,10 @@ For assignment 2, I plan to incorporate both mouse trail and mouse ripple for th
 </div>
 <br>
 
+Check out how I incorporate this into my [Assignment 2][assignment2].
 
 [happycoding-array]: https://happycoding.io/tutorials/p5js/array-functions 
 [happycoding-mouseripple]: https://happycoding.io/examples/p5js/input/mouse-ripple 
 [thecodingtrain-variable]: https://youtu.be/7A5tKW9HGoM
+
+[assignment2]: https://reilivia.github.io/creative/coding/2022/08/21/assignment-2-documentation.html 

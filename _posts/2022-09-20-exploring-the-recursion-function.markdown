@@ -143,6 +143,8 @@ function rectPattern(x, y, w, h) {
 </div>
 <br>
 
+Check out how I incorporate this into my [Assignment 2][assignment2].
+
 
 [creativecoding-recursion]: http://thomas.capogre.co/rmit/ccs/2022/09/03/recursion.html 
 [creativecoding-recursiverectangle]: https://editor.p5js.org/reilivia/sketches/0-pUsdKF1
@@ -151,3 +153,5 @@ function rectPattern(x, y, w, h) {
  
 [recursionillusion-oliverdimes]: https://youtu.be/YxOc8AvwQtM
 [recursiverectangle-web]: https://editor.p5js.org/reilivia/sketches/rGHajU-WE
+
+[assignment2]: https://reilivia.github.io/creative/coding/2022/08/21/assignment-2-documentation.html 
