@@ -15,8 +15,6 @@ For assignment 2, I have to stick with p5.js. At first I want to use Canvas API 
 </div>
 <br>
 
-Note: The embeded code is a smaller screen version. Click here to see the [FullScreen Version][assignment2-fullscreen].
-
 In general, there are three (3) main design choices for my Assignment 2 design. 
 1. [Mouse Interaction][mouse-interaction]
 2. [Recursive Rectangle][recursive-rectangle]
@@ -45,7 +43,8 @@ Other than mirror, this button works as a button to play/stop music. The music I
 # Credit
 My idea on how to incorporate the interaction, recursion and audio is inspired by a work called "[Love Will Tear Us Apart][qianqianye]" by Qianqian Ye.
 
-[assignment2-fullscreen]: https://editor.p5js.org/reilivia/full/e7vwtiFS2
+
+
 
 [mouse-interaction]: https://reilivia.github.io/creative/coding/2022/08/21/exploring-the-mouse-interaction-array.html
 [recursive-rectangle]: https://reilivia.github.io/creative/coding/2022/08/21/exploring-the-recursion-function.html
