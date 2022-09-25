@@ -48,8 +48,26 @@ To compensate the silentness in the design, I added a web audio API sampler that
 
 Compared to the original code, I added a minus in front of the xpos so the x_ratio will have a negative value. This resulted in a deeper pitch sound instead of a higher one.
 
+In addition to that, instead of usin the mouse x position, i use the yposition. This way the audio pitch will be different depending on the `y_pos`. 
+
+The reason why I changed all of that is to match the ripple interaction. If the mouse is on the top of the screen (low y value) it will play a high sound effect, and if the mouse is on the bottom of the screen (high y value) it will play a low sound effect.
+
 {% highlight ruby %}
-const x_ratio = - x_pos / window.innerWidth
+        function click_handler (mouse_event) { 
+            if (audio_context.state == 'suspended') {
+                audio_context.resume ()
+            } else {
+                // identify the mouseY position
+                const y_pos = mouse_event.clientY
+                
+                // this is to get a ratio using the mouseY position and the canvas width
+                // I set the y_pos into a negative value so that the audio will pitch lower
+                const y_ratio = - y_pos / window.innerHeight
+
+                // the ratio above is times with two to make it stronger, then the value will become the playback rate
+                play_ding (2 ** y_ratio)
+            }
+        }
 {% endhighlight %}
 
 # Credit
