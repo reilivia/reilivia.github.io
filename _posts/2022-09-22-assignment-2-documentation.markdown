@@ -46,7 +46,7 @@ I have to say that sound is not the main character in this design. I added the s
 
 To compensate the silentness in the design, I added a web audio API sampler that i learnt in creative coding class. This way, if you click on anypart of the screen, it will play a bell sound to accompany the ripple effect. 
 
-Compared to the original code, I added a minus in front of the xpos so the x_ratio will have a negative value. This resulted in a deeper pitch sound instead of a higher one.
+Compared to the original code, I added a minus in front of the ypos so the y_ratio will have a negative value. This resulted in a deeper pitch sound instead of a higher one.
 
 In addition to that, instead of usin the mouse x position, i use the yposition. This way the audio pitch will be different depending on the `y_pos`. 
 
