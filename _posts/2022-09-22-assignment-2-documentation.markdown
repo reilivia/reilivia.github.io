@@ -11,15 +11,16 @@ For assignment 2, I have to stick with p5.js. At first I want to use Canvas API 
 ## Documentation
 
 <div align ="center">
-  <iframe width="576" height="366" src="https://editor.p5js.org/reilivia/full/e7vwtiFS2"></iframe>
+  <iframe width="750" height="500" src="http://digitalmedia.rmit.edu.au/~s3862934/creativecoding_assignment2/"></iframe>
 </div>
 Note: Click here to see the [FullScreen Version][assignment2-fullscreen].
 <br>
 
-In general, there are three (3) main design choices for my Assignment 2 design. 
+In general, there are four (4) main design choices for my Assignment 2 design. 
 1. [Mouse Interaction][mouse-interaction]
 2. [Recursive Rectangle][recursive-rectangle]
-3. [Audio Button][audio-button]
+3. [Circle Mirror][circle-mirror]
+3. Sound-Effect
 
 In this blog post, I will explain my idea and how I incorporate each one of them into one single piece of work. 
 
@@ -34,19 +35,32 @@ Mouse ripple is a group of three circles. When you click on the canvas, it will 
 # Recursive Rectangle
 In assignment 2, I use the recursive function on a rectangle. It might look simple at first, however after adding some random weight stroke and rotation on the rectangle, it created this spiral illusion.
 
-The rectangles are black, the same colour as the background. You can only see it through the mouse trail, the mouse ripple and audio button.
+The rectangles are black, the same colour as the background. You can only see it through the mouse trail, the mouse ripple and circle mirror.
 
-# Audio Button
-In the middle of the canvas, there is a dark grey button. You can see the recursive rectangles on this button more clearly if you hover over the button. The idea is to make the button act as a window. You can peek on the recursive rectangle movement.
+# Circle Mirror
+In the middle of the canvas, there is a dark grey circl. You can see the recursive rectangles on this circle more clearly if you hover over the mirror. The idea is to make the circle act as a window or mirror. You can peek on the recursive rectangle movement.
 
-Other than mirror, this button works as a button to play/stop music. The music I choose is called "Muriel" by Bobby Richards. In addition to that, if you click on anypart of the screan, it will play a bell sound to accompany the ripple effect. This way you can jam on the music and interact with it. 
+
+# Sound Effect
+I have to say that sound is not the main character in this design. I added the sound effect just to enhance the interaction. As i mention at the end of [my previous blog post][previous-post], there were some problem with loading audio from p5.js to VSC. This is why i decided to change the audio button into a normal button/mirror with no audio function. 
+
+To compensate the silentness in the design, I added a web audio API sampler that i learnt in creative coding class. This way, if you click on anypart of the screen, it will play a bell sound to accompany the ripple effect. 
+
+Compared to the original code, I added a minus in front of the xpos so the x_ratio will have a negative value. This resulted in a deeper pitch sound instead of a higher one.
+
+{% highlight ruby %}
+const x_ratio = - x_pos / window.innerWidth
+{% endhighlight %}
 
 # Credit
-My idea on how to incorporate the interaction, recursion and audio is inspired by a work called "[Love Will Tear Us Apart][qianqianye]" by Qianqian Ye.
+My idea on how to incorporate the interaction, recursion and sound is inspired by a work called "[Love Will Tear Us Apart][qianqianye]" by Qianqian Ye. The rotating line in this work reminds me of a spider web. It is somewhat chaothic but also harmonized with the audio beat. Although the end result of my work doesn't really reflect my inspiration, it is still reflected in my progress, especially during the research for recursion.
 
-[assignment2-fullscreen]: https://editor.p5js.org/reilivia/full/e7vwtiFS2
+[assignment2-fullscreen]: http://digitalmedia.rmit.edu.au/~s3862934/creativecoding_assignment2/
 
 [mouse-interaction]: https://reilivia.github.io/creative/coding/2022/09/19/exploring-the-mouse-interaction-array.html
 [recursive-rectangle]: https://reilivia.github.io/creative/coding/2022/09/20/exploring-the-recursion-function.html
-[audio-button]: https://reilivia.github.io/creative/coding/2022/09/22/creating-the-audio-button.html
+[circle-mirror]: https://reilivia.github.io/creative/coding/2022/09/22/creating-the-circle-mirror.html
 [qianqianye]: https://qianqian-ye.com/Everyday/Day28/ 
+
+
+[previous-post]: https://reilivia.github.io/creative/coding/2022/09/22/creating-the-circle-mirror.html

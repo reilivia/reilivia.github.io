@@ -104,7 +104,7 @@ function mousePressed(){
 For assignment 2, I plan to incorporate both mouse trail and mouse ripple for the interaction.
 
 <div align ="center">
-  <iframe width="576" height="366" src="https://editor.p5js.org/reilivia/full/cQq77Sgr-"></iframe>
+  <iframe width="576" height="366" src="http://digitalmedia.rmit.edu.au/~s3862934/creativecoding_assignment2_research/mouseinteraction.html"></iframe>
 </div>
 <br>
 

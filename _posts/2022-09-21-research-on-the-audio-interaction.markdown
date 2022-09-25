@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Creating The Audio Button"
+title:  "Research on the Audio Interaction"
 date:   2022-09-22
 categories: creative coding
 ---
@@ -92,6 +92,20 @@ function mousePressed() {
   <iframe width="576" height="366" src="https://editor.p5js.org/reilivia/full/gwyFINWyR"></iframe>
 </div>
 <br>
+
+
+# Research
+
+Although the idea for the button works really well in p5.js, it is not working when i move it into Visual Studio Code. Apperently there were some problem with uploading the audio file. Unfortunately, i can't spend my time dwelling in this, so i just abort the plan and move on to the next plan. 
+
+My other plan is to use the audio example that play the audio onlick and change the audio pitch based on the mouseX mosition. This is the example from the creative coding class. 
+
+<div align ="center">
+  <iframe width="576" height="366" src="http://digitalmedia.rmit.edu.au/~s3862934/creativecoding_assignment2_research/bubblesound.html"></iframe>
+</div>
+<br>
+
+In here, I don't really change much of the code and the comment. I just change the audio because I was trying to understand how the audio work in canvas API.
 
 Check out how I incorporate this into my [Assignment 2][assignment2].
 

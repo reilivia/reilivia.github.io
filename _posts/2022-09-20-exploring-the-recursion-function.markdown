@@ -35,6 +35,12 @@ function recursive_rectangles (w, h) {
 Now that I somewhat understand what recursion function is, I tried to look for another example from an outside source. So, I watched a video called [Coding Challenge #77: Recursion by The Coding Train][codingtrain-recursion]. This video teached me about recursion in a more detailed manner. I figured out how to make the recursion more interactive by using `mouseX, mouseY` and even got some idea for my assignment 2.
 
 # Recursion in Canvas API
+
+<div align ="center">
+  <iframe width="576" height="366" src="http://digitalmedia.rmit.edu.au/~s3862934/creativecoding_assignment2_research/recursiontest.html"></iframe>
+</div>
+<br>
+
 By this point I was confident enough about recursion and ready to dip my feet into using Canvas API. I tried to conver the recursive rectangle into Canvas API. Here are some things that I've done:
 
 {% highlight ruby %}
@@ -109,14 +115,14 @@ In conclusion, even though this is just a loop function, I can use this as an id
 Moving on, I went back to the recursive rectangle and try to figure out how to iterate this simple code. I tried to put a random value for the difference between each recursion. This resulted in a cool graphic effect. 
 
 <div align ="center">
-  <iframe width="576" height="366" src="https://editor.p5js.org/reilivia/full/FV-AHKZqp"></iframe>
+  <iframe width="576" height="366" src="http://digitalmedia.rmit.edu.au/~s3862934/creativecoding_assignment2_research/recursiverectangle-random.html"></iframe>
 </div>
 <br>
 
-Seeing that the random variable is working, I went ton to add random colour, random stroke weight and random rotation value. The result is quite surprising because it looks like a string web.
+Seeing that the random variable is working, I went on to add random colour, random stroke weight and random rotation value. The result is quite surprising because it looks like a string web.
 
 <div align ="center">
-  <iframe width="576" height="366" src="https://editor.p5js.org/reilivia/full/rGHajU-WE"></iframe>
+  <iframe width="576" height="366" src="http://digitalmedia.rmit.edu.au/~s3862934/creativecoding_assignment2_research/recursiverectangle-web.html"></iframe>
 </div>
 <br>
 
@@ -139,7 +145,7 @@ function rectPattern(x, y, w, h) {
 {% endhighlight %}
 
 <div align ="center">
-  <iframe width="576" height="366" src="https://editor.p5js.org/reilivia/full/dlwLINWqP"></iframe>
+  <iframe width="700" height="500" src="http://digitalmedia.rmit.edu.au/~s3862934/creativecoding_assignment2_research/recursiverectangle-rotate.html"></iframe>
 </div>
 <br>
 
