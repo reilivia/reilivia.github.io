@@ -11,7 +11,7 @@ To start of, I looked for some reference to guide me on how to create a mouse in
 In this blog, I will explain my research in exploring the mouse trail function from [Happy Coding Array Tutorials][happycoding-array] and my research on the [Mouse Ripple Example][happycoding-mouseripple].
 
 # Mouse Trail
-In my attempt to check off the requirement to use array in assignment 2, I planned to create a mouse trail.
+In my attempt to check off the requirement to use array in assignment 2, I planned to create a mouse trail. I find the mouse trail interesting because it's like drawing on the screen with you shadow.
 
 Following the [Happy Coding Array Tutorials][happycoding-array], I started of with creating an array to contain the circles. 
 
@@ -59,7 +59,11 @@ Finally, I added a circle at the end of the `mousetrail()` function is to create
 {% endhighlight %}
 
 # Mouse Ripple
-Another thing that I wanted to add to my design is a mouse ripple interaction. I found this [Mouse Ripple][happycoding-mouseripple] example from the Happy Coding website. To understand that code, I watched the video tutorials by The Coding Train called "[2.1: Variables in p5.js (mouseX, mouseY) - p5.js Tutorial][thecodingtrain-variable]". This video explain how to use the variable `(mouseX, mouseY)`. Through this video I was able tounderstand how to draw an object on mouse click.
+Another thing that I wanted to add to my design is a mouse ripple interaction. 
+
+Why mouse ripple? When you trace your finger on the water, it will create a trail, the next interaction after that is to touch (click) the water. This is why i wanted to add a simple ripple on click interaction.
+
+I found this [Mouse Ripple][happycoding-mouseripple] example from the Happy Coding website. To understand that code, I watched the video tutorials by The Coding Train called "[2.1: Variables in p5.js (mouseX, mouseY) - p5.js Tutorial][thecodingtrain-variable]". This video explain how to use the variable `(mouseX, mouseY)`. Through this video I was able tounderstand how to draw an object on mouse click.
 
 The code in the [Mouse Ripple][happycoding-mouseripple] example starts of with setting variables for the circle position and size.
 

@@ -105,7 +105,7 @@ My other plan is to use the audio example that play the audio onlick and change 
 </div>
 <br>
 
-In here, I don't really change much of the code and the comment. I just change the audio because I was trying to understand how the audio work in canvas API.
+In here, I don't really change much of the code and the comment. I just change the audio because I was trying to understand how the audio work in canvas API. I will explain my intention more detailed in the assignment 2 documentation.
 
 Check out how I incorporate this into my [Assignment 2][assignment2].
 
