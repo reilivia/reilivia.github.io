@@ -74,6 +74,9 @@ The reason why I changed all of that is to match the ripple interaction. If the 
 ## Credit
 My idea on how to incorporate the interaction, recursion and sound is inspired by a work called "[Love Will Tear Us Apart][qianqianye]" by Qianqian Ye. The rotating line in this work reminds me of a spider web. It is somewhat chaotic but also harmonized with the audio beat. Although the end result of my work doesn't really reflect my inspiration, it is still reflected in my progress, especially during the research for recursion.
 
+# Extra
+[Creative Coding Assignment 2 Research][creativecoding-assignment2-research]
+
 [assignment2-fullscreen]: http://digitalmedia.rmit.edu.au/~s3862934/creativecoding_assignment2/
 
 [mouse-interaction]: https://reilivia.github.io/creative/coding/2022/09/19/exploring-the-mouse-interaction-array.html
@@ -83,3 +86,5 @@ My idea on how to incorporate the interaction, recursion and sound is inspired b
 
 
 [previous-post]: https://reilivia.github.io/creative/coding/2022/09/22/creating-the-circle-mirror.html
+
+[creativecoding-assignment2-research]: http://digitalmedia.rmit.edu.au/~s3862934/creativecoding_assignment2_research/ 
