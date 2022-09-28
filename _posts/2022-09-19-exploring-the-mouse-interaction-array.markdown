@@ -63,7 +63,7 @@ Another thing that I wanted to add to my design is a mouse ripple interaction.
 
 Why mouse ripple? When you trace your finger on the water, it will create a trail, the next interaction after that is to touch (click) the water. This is why i wanted to add a simple ripple on click interaction.
 
-I found this [Mouse Ripple][happycoding-mouseripple] example from the Happy Coding website. To understand that code, I watched the video tutorials by The Coding Train called "[2.1: Variables in p5.js (mouseX, mouseY) - p5.js Tutorial][thecodingtrain-variable]". This video explain how to use the variable `(mouseX, mouseY)`. Through this video I was able tounderstand how to draw an object on mouse click.
+I found this [Mouse Ripple][happycoding-mouseripple] example from the Happy Coding website. To understand that code, I watched the video tutorials by The Coding Train called "[2.1: Variables in p5.js (mouseX, mouseY) - p5.js Tutorial][thecodingtrain-variable]". This video explain how to use the variable `(mouseX, mouseY)`. Through this video I understand how to draw an object on mouse click.
 
 The code in the [Mouse Ripple][happycoding-mouseripple] example starts of with setting variables for the circle position and size.
 
@@ -112,6 +112,8 @@ For assignment 2, I plan to incorporate both mouse trail and mouse ripple for th
 </div>
 <br>
 
+[Click Here][js-mouseinteraction] if the embedded javascript doesn't work.
+
 Check out how I incorporate this into my [Assignment 2][assignment2].
 
 [happycoding-array]: https://happycoding.io/tutorials/p5js/array-functions 
@@ -119,3 +121,4 @@ Check out how I incorporate this into my [Assignment 2][assignment2].
 [thecodingtrain-variable]: https://youtu.be/7A5tKW9HGoM
 
 [assignment2]: https://reilivia.github.io/creative/coding/2022/08/21/assignment-2-documentation.html 
+[js-mouseinteraction]: http://digitalmedia.rmit.edu.au/~s3862934/creativecoding_assignment2_research/mouseinteraction.html 

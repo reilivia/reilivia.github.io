@@ -28,7 +28,7 @@ In this blog post, I will explain my idea and how I incorporate each one of them
 
 There are two mouse interaction, the mouse trail and mouse ripple.
 
-Mouse trail is an array of circles that follow the mouse. The circles is white and positioned at the bottem after the background. The idea is this mouse trail acts like a flashlight so you can see what is happening on the screen. The mouse trail start of with a certain size, and gradually scale down and dissapear and new circle appears.
+Mouse trail is an array of circles that follow the mouse. The circles is white and positioned at the bottom after the background. The idea is this mouse trail acts like a flashlight so you can see what is happening on the screen. The mouse trail start of with a certain size, and gradually scale down and dissapear and new circle appears.
 
 Mouse ripple is a group of three circles. When you click on the canvas, it will create three circle that start with size 0, and gradually scale up until it covers the whole canvas.
 
@@ -38,7 +38,7 @@ In assignment 2, I use the recursive function on a rectangle. It might look simp
 The rectangles are black, the same colour as the background. You can only see it through the mouse trail, the mouse ripple and circle mirror.
 
 # Circle Mirror
-In the middle of the canvas, there is a dark grey circl. You can see the recursive rectangles on this circle more clearly if you hover over the mirror. The idea is to make the circle act as a window or mirror. You can peek on the recursive rectangle movement.
+In the middle of the canvas, there is a dark grey circle. You can see the recursive rectangles on this circle more clearly if you hover over the mirror. The idea is to make the circle act as a window or mirror. You can peek on the recursive rectangle movement.
 
 
 # Sound Effect
@@ -48,7 +48,7 @@ To compensate the silentness in the design, I added a web audio API sampler that
 
 Compared to the original code, I added a minus in front of the ypos so the y_ratio will have a negative value. This resulted in a deeper pitch sound instead of a higher one.
 
-In addition to that, instead of usin the mouse x position, i use the yposition. This way the audio pitch will be different depending on the `y_pos`. 
+In addition to that, instead of using the mouse x position, i use the yposition. This way the audio pitch will be different depending on the `y_pos`. 
 
 The reason why I changed all of that is to match the ripple interaction. If the mouse is on the top of the screen (low y value) it will play a high sound effect, and if the mouse is on the bottom of the screen (high y value) it will play a low sound effect.
 
@@ -72,13 +72,13 @@ The reason why I changed all of that is to match the ripple interaction. If the 
 <br>
 
 ## Credit
-My idea on how to incorporate the interaction, recursion and sound is inspired by a work called "[Love Will Tear Us Apart][qianqianye]" by Qianqian Ye. The rotating line in this work reminds me of a spider web. It is somewhat chaothic but also harmonized with the audio beat. Although the end result of my work doesn't really reflect my inspiration, it is still reflected in my progress, especially during the research for recursion.
+My idea on how to incorporate the interaction, recursion and sound is inspired by a work called "[Love Will Tear Us Apart][qianqianye]" by Qianqian Ye. The rotating line in this work reminds me of a spider web. It is somewhat chaotic but also harmonized with the audio beat. Although the end result of my work doesn't really reflect my inspiration, it is still reflected in my progress, especially during the research for recursion.
 
 [assignment2-fullscreen]: http://digitalmedia.rmit.edu.au/~s3862934/creativecoding_assignment2/
 
 [mouse-interaction]: https://reilivia.github.io/creative/coding/2022/09/19/exploring-the-mouse-interaction-array.html
 [recursive-rectangle]: https://reilivia.github.io/creative/coding/2022/09/20/exploring-the-recursion-function.html
-[circle-mirror]: https://reilivia.github.io/creative/coding/2022/09/22/creating-the-circle-mirror.html
+[circle-mirror]: https://reilivia.github.io/creative/coding/2022/09/22/research-on-the-audio-interaction.html
 [qianqianye]: https://qianqian-ye.com/Everyday/Day28/ 
 
 

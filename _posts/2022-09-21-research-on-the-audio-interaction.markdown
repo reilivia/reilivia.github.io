@@ -105,6 +105,8 @@ My other plan is to use the audio example that play the audio onlick and change 
 </div>
 <br>
 
+[Click Here][js-bubblesound] if the embedded javascript doesn't work.
+
 In here, I don't really change much of the code and the comment. I just change the audio because I was trying to understand how the audio work in canvas API. I will explain my intention more detailed in the assignment 2 documentation.
 
 Check out how I incorporate this into my [Assignment 2][assignment2].
@@ -115,3 +117,5 @@ Check out how I incorporate this into my [Assignment 2][assignment2].
 [p5-loadnplaysound]: https://p5js.org/examples/sound-load-and-play-sound.html 
 
 [assignment2]: https://reilivia.github.io/creative/coding/2022/08/21/assignment-2-documentation.html 
+
+[js-bubblesound]: http://digitalmedia.rmit.edu.au/~s3862934/creativecoding_assignment2_research/bubblesound.html 

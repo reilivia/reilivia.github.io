@@ -41,6 +41,9 @@ Now that I somewhat understand what recursion function is, I tried to look for a
 </div>
 <br>
 
+
+[Click Here][js-recursiverectangle-canvasapi] if the embedded javascript doesn't work.
+
 By this point I was confident enough about recursion and ready to dip my feet into using Canvas API. I tried to conver the recursive rectangle into Canvas API. Here are some things that I've done:
 
 {% highlight ruby %}
@@ -119,12 +122,17 @@ Moving on, I went back to the recursive rectangle and try to figure out how to i
 </div>
 <br>
 
+[Click Here][js-recursiverectangle-random] if the embedded javascript doesn't work.
+
 Seeing that the random variable is working, I went on to add random colour, random stroke weight and random rotation value. The result is quite surprising because it looks like a string web.
 
 <div align ="center">
   <iframe width="576" height="366" src="http://digitalmedia.rmit.edu.au/~s3862934/creativecoding_assignment2_research/recursiverectangle-web.html"></iframe>
 </div>
 <br>
+
+[Click Here][js-recursiverectangle-web] if the embedded javascript doesn't work.
+
 
 I tried to look at the previous example of recirsive rectangle to see why the rectangle wont wove. Turns out, the rectangles was drawn outside the canvas because there is no limitation. So, i added an `if` function to contain the recursive rectangle. This way the rectangle is only drawn inside the canvas.
 
@@ -149,6 +157,9 @@ function rectPattern(x, y, w, h) {
 </div>
 <br>
 
+[Click Here][js-recursiverectangle-rotate] if the embedded javascript doesn't work.
+
+
 Check out how I incorporate this into my [Assignment 2][assignment2].
 
 
@@ -161,3 +172,9 @@ Check out how I incorporate this into my [Assignment 2][assignment2].
 [recursiverectangle-web]: https://editor.p5js.org/reilivia/sketches/rGHajU-WE
 
 [assignment2]: https://reilivia.github.io/creative/coding/2022/08/21/assignment-2-documentation.html 
+
+[js-recursiverectangle-canvasapi]: http://digitalmedia.rmit.edu.au/~s3862934/creativecoding_assignment2_research/recursiontest.html 
+[js-recursiverectangle-random]: http://digitalmedia.rmit.edu.au/~s3862934/creativecoding_assignment2_research/recursiverectangle-random.html
+
+[js-recursiverectangle-web]: http://digitalmedia.rmit.edu.au/~s3862934/creativecoding_assignment2_research/recursiverectangle-web.html 
+[js-recursiverectangle-rotate]: http://digitalmedia.rmit.edu.au/~s3862934/creativecoding_assignment2_research/recursiverectangle-rotate.html
