@@ -74,8 +74,7 @@ The reason why I changed all of that is to match the ripple interaction. If the 
 ## Credit
 My idea on how to incorporate the interaction, recursion and sound is inspired by a work called "[Love Will Tear Us Apart][qianqianye]" by Qianqian Ye. The rotating line in this work reminds me of a spider web. It is somewhat chaotic but also harmonized with the audio beat. Although the end result of my work doesn't really reflect my inspiration, it is still reflected in my progress, especially during the research for recursion.
 
-# Extra
-[Creative Coding Assignment 2 Research][creativecoding-assignment2-research]
+Compilation of links: [Creative Coding Assignment 2 Research][creativecoding-assignment2-research]
 
 [assignment2-fullscreen]: http://digitalmedia.rmit.edu.au/~s3862934/creativecoding_assignment2/
 
