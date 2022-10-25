@@ -5,11 +5,9 @@ date:   2022-10-22
 categories: creative coding
 ---
 
-## Plan for Assignment 2
+## Plan for Assignment 3
 
 To learn hydra function, I did some experiments and played with the functions. I use two websites for reference, from the [hydra website] and from [clipsoundandmusic].
-
-
 
 Hydra have five functions:
 1. Source 
@@ -55,7 +53,7 @@ In the second example, I add `color()`, `rotate()` , and `ease()` functions. On 
 </div>
 <br>
 
-In the third example, I add `color()`, `pixelate()` , and `modulateScrollX()` functions. The `pixelate()` function create a pixel from the source function color. And the `modulateScrollX()` function move the original source function on X axis using an oscillator texture.
+In the third example, I add `color()`, `pixelate()` , and `modulateScrollX()` functions. The `pixelate()` function create a pixel from the source function color. And the `modulateScrollX()` function move the original source function on X axis using an oscillator texture.s
 
 {% highlight ruby %}
   .repeat(5, 5, () => Math.sin(time), () => Math.sin(time/2))
