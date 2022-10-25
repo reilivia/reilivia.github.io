@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Research on the Audio Interaction"
-date:   2022-09-22
+date:   2022-09-21
 categories: creative coding
 ---
 
