@@ -18,7 +18,7 @@ Hydra have five functions:
 
 Each hydra code always start with a source function, then transform with other functions, and finally end with an out() function.
 
-Source
+Source function:
 * noise (scale, offset)
     * Scale = control how many noise on screen
     * Offset = control the movement speed
