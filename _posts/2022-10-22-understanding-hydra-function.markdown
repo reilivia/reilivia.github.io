@@ -5,8 +5,6 @@ date:   2022-10-22
 categories: creative coding
 ---
 
-## Plan for Assignment 3
-
 To learn hydra function, I did some experiments and played with the functions. I use two websites for reference, from the [hydra website] and from [clipsoundandmusic].
 
 Hydra have five functions:
